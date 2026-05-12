@@ -1,4 +1,4 @@
-const arrow=(a,b)=>a+b;
-console.log(arrow(55,3));
-console.log(arrow(5,3));
-console.log(arrow(1,3));
+let colers=["red","blue","green"];
+console.log(colers[0]);
+console.log(colers[1]);
+console.log(colers[2]);
