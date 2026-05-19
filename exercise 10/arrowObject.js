@@ -15,8 +15,16 @@ let libariry=[
         title:" bar"
     }
 ]
+
 console.log(libariry);
 console.log(libariry[1]);
 console.log(libariry[2]);
 
+let CAR={
+    name:"herri",
+    age:29,
+    birth:2004.
+
+}
+console.log(CAR.name)
 
