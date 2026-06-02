@@ -4,4 +4,4 @@ function calculateArea(width,hiegth=width){
     
 }
 console.log(calculateArea(7, 3));
-console.log(calculateArea(55));
+console.log(calculateArea(5));

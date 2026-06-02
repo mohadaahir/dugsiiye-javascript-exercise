@@ -8,4 +8,4 @@ let passed=score.filter((result)=>result>=60);
 console.log(passed);
 let numbers=[1,2,3,4,5,6,7,8,9]
 let evennumber=numbers.filter((even)=>even%2===0)
-console.log(evennumber);
+console.log(evennumber);  
