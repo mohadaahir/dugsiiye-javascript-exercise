@@ -16,6 +16,8 @@ let libariry=[
     }
 ]
 
+libariry.pop({})
+
 console.log(libariry);
 console.log(libariry[1]);
 console.log(libariry[2]);
