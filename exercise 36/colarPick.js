@@ -7,7 +7,7 @@ colorPicker.addEventListener('input', function() {
     colorPreview.style.backgroundColor = selectedColor;
     addColorToHistory(selectedColor)
 
-})
+});
 
 function addColorToHistory(color) {
     const li = document.createElement('li');
