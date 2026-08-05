@@ -1,0 +1,58 @@
+*body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 245, 249);
+    width: 100%;
+    height: 100vh;
+    
+}
+#translate{
+width: 60%;
+height: 90%;
+background-color: white;
+margin: 0 auto;
+padding:10px;
+display:flex;
+text-transform: capitalize;
+border-radius: 15px;
+justify-content: center;
+align-items: center;
+
+}
+h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+#fromLabel{
+font-size: 30px;
+}
+#fromLanguage,
+#toLanguage{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h2{
+    color:rgb(66, 251, 49);
+    font-size: 25px;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+#inputText{
+    width: 100%;
+ margin-bottom: 10px;
+ border-radius: 10px;
+    resize: none;
+}
+#translateBtn{
+padding: 10px;
+border-radius: 10px;
+}
