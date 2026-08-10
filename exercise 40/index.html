@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div class="player-card">
+    <div class="album-cover">
+      <video id="player-video" poster="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop"></video>
+    </div>
+
+    <div class="track-info">
+      <h2 class="song-title">Somewhere Only We Know</h2>
+      <p class="artist">Artist Four</p>
+    </div>
+
+    <div class="progress-section">
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+      <div class="time-labels">
+        <span class="current-time">2:09</span>
+        <span class="total-time">2:59</span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="control-btn" id="prev-btn" aria-label="Previous">
+        <i class="fa-solid fa-backward-step"></i>
+      </button>
+      <button class="control-btn play-btn" id="play-btn" aria-label="Play">
+        <i class="fa-solid fa-play"></i>
+      </button>
+      <button class="control-btn" id="next-btn" aria-label="Next">
+        <i class="fa-solid fa-forward-step"></i>
+      </button>
+    </div>
+
+    <div class="bottom-controls">
+      <div class="volume-control">
+        <i class="fa-solid fa-volume-high"></i>
+        <input type="range" class="volume-slider" min="0" max="100" value="75">
+      </div>
+      <button class="speed-btn" id="speed-btn">1x</button>
+      <button class="control-btn settings-btn" aria-label="Settings">
+        <i class="fa-solid fa-gear"></i>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
